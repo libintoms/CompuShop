@@ -942,7 +942,7 @@
                 <div class="testimonial-container">
                   <div class="testimonial-content"> You guys rock! Thank you for making it painless, pleasant and most of all hassle free! I wish I would have thought of it first. 
                     I am really satisfied with my first laptop service. </div>
-                  <div class="testimonial-photo"> <img src="images/it_service/client1.jpg" class="img-responsive" alt="#" width="150" height="150"> </div>
+                  <div class="testimonial-photo"> <img src="{% static 'images/it_service/client1.jpg' %}" class="img-responsive" alt="#" width="150" height="150"> </div>
                   <div class="testimonial-meta">
                     <h4>Maria Anderson</h4>
                     <span class="testimonial-position">CFO, Tech NY</span> </div>
@@ -952,7 +952,7 @@
                 <div class="testimonial-container">
                   <div class="testimonial-content"> You guys rock! Thank you for making it painless, pleasant and most of all hassle free! I wish I would have thought of it first. 
                     I am really satisfied with my first laptop service. </div>
-                  <div class="testimonial-photo"> <img src="images/it_service/client2.jpg" class="img-responsive" alt="#" width="150" height="150"> </div>
+                  <div class="testimonial-photo"> <img src="{% static 'images/it_service/client2.jpg' %}" class="img-responsive" alt="#" width="150" height="150"> </div>
                   <div class="testimonial-meta">
                     <h4>Maria Anderson</h4>
                     <span class="testimonial-position">CFO, Tech NY</span> </div>
@@ -962,7 +962,7 @@
                 <div class="testimonial-container">
                   <div class="testimonial-content"> You guys rock! Thank you for making it painless, pleasant and most of all hassle free! I wish I would have thought of it first. 
                     I am really satisfied with my first laptop service. </div>
-                  <div class="testimonial-photo"> <img src="images/it_service/client3.jpg" class="img-responsive" alt="#" width="150" height="150"> </div>
+                  <div class="testimonial-photo"> <img src="{% static 'images/it_service/client3.jpg' %}" class="img-responsive" alt="#" width="150" height="150"> </div>
                   <div class="testimonial-meta">
                     <h4>Maria Anderson</h4>
                     <span class="testimonial-position">CFO, Tech NY</span> </div>
@@ -986,7 +986,7 @@
       <div class="col-md-12">
         <div class="full">
           <div class="contact_us_section">
-            <div class="call_icon"> <img src="images/it_service/phone_icon.png" alt="#" /> </div>
+            <div class="call_icon"> <img src="{% static 'images/it_service/phone_icon.png' %}" alt="#" /> </div>
             <div class="inner_cont">
               <h2>REQUEST A FREE QUOTE</h2>
               <p>Get answers and advice from people you want it from.</p>
@@ -1006,11 +1006,11 @@
       <div class="col-md-12">
         <div class="full">
           <ul class="brand_list">
-            <li><img src="images/it_service/brand_icon1.png" alt="#" /></li>
-            <li><img src="images/it_service/brand_icon2.png" alt="#" /></li>
-            <li><img src="images/it_service/brand_icon3.png" alt="#" /></li>
-            <li><img src="images/it_service/brand_icon4.png" alt="#" /></li>
-            <li><img src="images/it_service/brand_icon5.png" alt="#" /></li>
+            <li><img src="{% static 'images/it_service/brand_icon1.png' %}" alt="#" /></li>
+            <li><img src="{% static 'images/it_service/brand_icon2.png' %}" alt="#" /></li>
+            <li><img src="{% static 'images/it_service/brand_icon3.png' %}" alt="#" /></li>
+            <li><img src="{% static 'images/it_service/brand_icon4.png' %}" alt="#" /></li>
+            <li><img src="{% static 'images/it_service/brand_icon5.png' %}" alt="#" /></li>
           </ul>
         </div>
       </div>
@@ -1046,13 +1046,13 @@
 <!-- footer -->
 <footer class="footer_style_2">
   <div class="container-fuild">
-    <div class="row">
-      <div class="map_section">
+    <!-- <div class="row"> -->
+      <!-- <div class="map_section">
         <div id="map"></div>
-      </div>
+      </div> -->
       <div class="footer_blog">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-4">
             <div class="main-heading left_text">
               <h2>It Next Theme</h2>
             </div>
@@ -1063,7 +1063,7 @@
               <li class="social-icon gp"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
             </ul>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4">
             <div class="main-heading left_text">
               <h2>Additional links</h2>
             </div>
@@ -1071,11 +1071,11 @@
               <li><a href="it_about.html"><i class="fa fa-angle-right"></i> About us</a></li>
               <li><a href="it_term_condition.html"><i class="fa fa-angle-right"></i> Terms and conditions</a></li>
               <li><a href="it_privacy_policy.html"><i class="fa fa-angle-right"></i> Privacy policy</a></li>
-              <li><a href="it_news.html"><i class="fa fa-angle-right"></i> News</a></li>
+              <li><a href="it_news.html"><i class="fa fa-angle-right"></i> Services</a></li>
               <li><a href="it_contact.html"><i class="fa fa-angle-right"></i> Contact us</a></li>
             </ul>
-          </div>
-          <div class="col-md-6">
+          </div>    
+          <!-- <div class="col-md-5">
             <div class="main-heading left_text">
               <h2>Services</h2>
             </div>
@@ -1086,8 +1086,8 @@
               <li><a href="it_network_solution.html"><i class="fa fa-angle-right"></i> Network solutions</a></li>
               <li><a href="it_techn_support.html"><i class="fa fa-angle-right"></i> Technical support</a></li>
             </ul>
-          </div>
-          <div class="col-md-6">
+          </div> -->
+          <div class="col-md-4">
             <div class="main-heading left_text">
               <h2>Contact us</h2>
             </div>

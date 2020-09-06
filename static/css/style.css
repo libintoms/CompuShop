@@ -3333,7 +3333,7 @@ footer h4 {
 
 .footer_blog {
 	float: left;
-	width: 65%;
+	width: 100%;
 	padding: 75px 75px 100px 75px;
 }
 
@@ -3441,7 +3441,7 @@ footer ul.social_icons {
 	height: auto;
 	left: 0;
 	padding: 18px 0;
-	padding-left: 35%;
+	padding-left: 0%;
 }
 
 .cprt p {
