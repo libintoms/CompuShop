@@ -9,3 +9,9 @@ def index(request):
 
 def about(request):
     return render(request,"it_about.html")
+
+def shop(request):
+    return render(request,"it_shop.html")
+
+def contact(request):
+    return render(request,"contact.html")
